@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon-bar {
+  width: 100%;
+  display: flex;
+}
+
+.icon-bar a {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0.3333em 0;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 1.5em;
+  background: #333;
+  text-decoration: none;
+}
+
+.icon-bar a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.icon-bar .active {
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
+
+.icon-bar .active:hover {
+  color: #333;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  width: 100%;
+  text-align: center;
+  padding: 0.3em 0;
+  font-size: 0.05em;
+  color: #333;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.active .tooltiptext {
+  color: #00bfff;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+  font-size: 20px;
+}
