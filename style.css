@@ -82,6 +82,18 @@ body {
   border: 1px solid #333;
 }
 
+.search-form input:focus {
+  outline: none;
+}
+
+.hero {
+  background: url("./couple-relaxing-on-grassland-3441119.jpg");
+  height: 59vw;
+  display: flex;
+  color: #00bfff;
+  transition: height 0.3s ease;
+}
+
 .active .tooltiptext {
   color: #00bfff;
 }
