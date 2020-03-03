@@ -60,6 +60,19 @@ body {
   transition: opacity 0.3s ease;
 }
 
+.search-form {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  max-width: 32em;
+  right: 0;
+  background: #333;
+  padding: 1em;
+  box-sizing: border-box;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
 .active .tooltiptext {
   color: #00bfff;
 }
